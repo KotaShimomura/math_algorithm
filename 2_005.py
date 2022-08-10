@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int, input().split()))
+b = sum(a)
+_, ans = divmod(b, 100)
+print(ans)
